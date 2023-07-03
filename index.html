@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8" />
+    <meta name="author" content="Angelica Cortes" />
+    <meta
+      name="description"
+      content="Portafolio de desarrollo web de Angelica Cortes"
+    />
+    <meta name="keywords" content="HTML, CSS, JavaScript,Bootstrap" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Titulo -->
+    <title>Baby Shower| Corazoncito💗</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/elefante.png" />
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <!-- Iconos de Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Acme&family=Archivo+Black&family=Cookie&family=Fira+Sans:ital,wght@1,500;1,900&family=Lilita+One&family=Pacifico&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header">
+      <div class="menu container">
+        <a href="" class="logo">
+          <img src="imagenes/elefante.png" class="menu-icono" alt="">
+        </a>
+        <input type="checkbox" id="menu" />
+        <label for="menu">
+          <img src="imagenes/menu.svg" class="menu-icono" alt="" />
+        </label>
+        <nav class="navbar"  id="inicio">
+          <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#video">Video</a></li>
+            <li><a href="#fecha">Fecha</a></li>
+            <li><a href="#contador">Contador</a></li>
+            <li><a href="#direccion">Direccion</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header-content container titulo" >
+          <span>Te invitamos a celebrar la llegada de Corazoncito💗</span>
+        </div>
+    </header>
+
+    <section class="txt_principal" id="caja2">
+      <div class="txt_caja">
+        <p class="txt">
+          Dios  ha bendecido a mis papis con mi  llegada  y deseamos compartir está felicidad con ustedes
+        </p>
+      </div>
+    </section>
+
+
+    <section class="bienvenido" id="video">
+      <div class="video-container">
+        <video class="video" src="video/baby.mp4" autoplay controls>
+          Tu navegador no soporta la etiqueta de video.
+        </video>
+      </div>
+      
+      <div class="bienvenido-2" id="caja1">
+        <h2 class="txt_bn">¡HOLA! Soy Corazoncito💗</h2>
+        <p class="b1">
+          Pronto estaré con ustedes, porque ahorita Diosito está pintando mis:
+        </p>
+        <li>Ojitos👀</li>
+        <li>Cachetitos☺️</li>
+        <li>Boquita👄</li>
+        <li>Y mi Pelito👶</li>
+
+      </div>
+    </section>
+<!--ACOMPAÑAAAAAAAAAAAAAAAAAAAA-->
+    <section class="txt_invitacion" id="fecha">
+      <div class="servicios-text">
+        <!--COMO QUE LE VA E VAS LO DEL PRIMOGENITO -->
+        <h2>ACOMPAÑA A MIS PAPIS ALINA & DAVID </h2>
+        <p class="acompaña">
+          A celebrar la llegada de su primogénito(a) corazoncito💗
+        </p>
+        <P class="acompaña">en un </P>
+        <li class="acompaña2">BABY SHOWER</li>
+
+        <li class="acompaña3">En mi honor </li>
+      </div>
+      
+
+      <h2>EL DÍA DOMINGO </h2>
+      <p>
+        <span class="day">13</span>
+        <span class="month">08</span>
+        <span class="year">23</span>
+      </p>
+
+      <h2>A las  </h2>
+    
+      <span class="time">14:00 PM</span>
+      
+    </section>
+
+    <!--fECHAAAAAAAAAAAAAAA-->
+    <!--<section class="txt_invit">
+      <h2>EL DÍA DOMINGO </h2>
+      <p>
+        <span class="day">13</span>
+        <span class="month">08</span>
+        <span class="year">23</span>
+      </p>
+
+      <h2>A las  </h2>
+    
+      <span class="time">14:00 PM</span>
+      
+    </section>--!>
+
+<!--CONTADOOOOOOR-->
+    <div class="countdown-container" id="contador">
+      <div class="countdown-wrapper">
+        <div class="countdown-header faltan" >Faltan</div>
+        <div class="countdown">
+          <div class="countdown-item" id="days-container">
+            <span id="days">00</span>
+            <div id="days-label" class="countdown-label">Días</div>
+          </div>
+          <div class="countdown-item" id="hours-container">
+            <span id="hours">00</span>
+            <div id="hours-label" class="countdown-label">Horas</div>
+          </div>
+          <div class="countdown-item" id="minutes-container">
+            <span id="minutes">00</span>
+            <div id="minutes-label" class="countdown-label">Minutos</div>
+          </div>
+          <div class="countdown-item" id="seconds-container">
+            <span id="seconds">00</span>
+            <div id="seconds-label" class="countdown-label">Segundos</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+<!--GALERIA DE FOTOOOOOOOOOOOOOOOOOS-->
+<div class="gallery-container">
+  <div class="gallery-wrapper">
+    <div class="gallery-slide">
+      <img src="imagenes/aside.jpeg" alt="Imagen 1">
+    </div>
+    <div class="gallery-slide">
+      <img src="imagenes/ultarasonido1.jpeg" alt="Imagen 2">
+    </div>
+    <div class="gallery-slide">
+      <img src="imagenes/encabezado1.jpeg" alt="Imagen 3">
+    </div>
+    <div class="gallery-slide">
+      <img src="imagenes/encabezado2.jpeg" alt="Imagen 3">
+    </div>
+    <div class="gallery-slide">
+      <img src="imagenes/encabezado2.jpeg" alt="Imagen 3">
+    </div>
+    <div class="gallery-slide">
+      <img src="imagenes/encabezado2.jpeg" alt="Imagen 3">
+    </div>
+    <div class="gallery-slide">
+      <img src="imagenes/encabezado2.jpeg" alt="Imagen 3">
+    </div>
+  </div>
+</div>
+
+
+
+
+      <!--DIreccioOnnnnn-->
+      <div class="contenedor" id="direccion">
+        <div class="box">
+          <h2>te esperamos en 🏠 </h2>
+          <p class="direc">
+            📍Tulipanes 1, Zona Sin Asignación de Nombre de Col 1
+          </p>
+          <p class="direc"> 72100 Puebla, Pue.</p>
+        </div>
+        
+          <div id="mapacomp" class="box1">
+          <iframe class="brd" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3769.5423629871952!2d-98.2079444!3d19.127722199999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTnCsDA3JzM5LjgiTiA5OMKwMTInMjguNiJX!5e0!3m2!1ses!2smx!4v1688252930113!5m2!1ses!2smx" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div id="mapa-mediano" class="box1">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d7539.084735101513!2d-98.207944!3d19.127722!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTnCsDA3JzM5LjgiTiA5OMKwMTInMjguNiJX!5e0!3m2!1ses!2smx!4v1688352170242!5m2!1ses!2smx" width="300" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+
+      </div>
+        <div id="mapa-reducido" class="box1">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d7539.084735101513!2d-98.207944!3d19.127722!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTnCsDA3JzM5LjgiTiA5OMKwMTInMjguNiJX!5e0!3m2!1ses!2smx!4v1688352170242!5m2!1ses!2smx" width="300" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+     
+  
+      
+   <!--MESA DE REGALOOOOOOOOOOOOOOOOOOOOS-->
+    <section class="mesa">
+      <div class="mesa-1">
+        <h2>MESA DE REGALOS </h2>
+
+        <img  class="imgel" src="imagenes/mesa2.png" alt="Imagen mesa de regalos">
+
+        <p class="acompaña4">
+          Para mis papis y yo el  mejor regalo es tu presencia, tu compañía, si gustas obsequiarnos algo puede ser lo que tu corazón mande.
+
+          Te dejo el número de evento para que veas opciones o si te gusta algo que yo usaría puedes agregarlo a mi mesa de regalos con el mismo número. (Liverpool)
+            Número de evento
+              51237695
+
+        </p>
+        
+        </table>
+        <a href="imagen.html" target="_blank" class="boton">Número de evento</a>
+      </div>
+      <div class="precio-2"></div>
+    </section>
+
+
+    <main class="servicios container">
+      <div class="servicios-text">
+        <!--COMO QUE LE VA E VAS LO DEL PRIMOGENITO -->
+        
+        <h3>¿qué piensas que seré?</h3>
+        <p>Soy una sopresa🥰</p>
+        <p>
+         Mi papis son los primeros en querer saber, pero yo soy más veloz que el aparato.😉👼
+        </p>
+        
+      </div>
+
+      <div class="servicios-group">
+
+        <div class="servicios-1">
+        
+          <h3>TEAM GIRL</h3>
+          <img src="imagenes/nina2.png" alt="">
+          <p >
+            Puedes portar una prenda color rosa si tú piensas que seré niña.
+          </p>
+        </div>
+
+        <div class="servicios-1">
+        
+          <h3>TEAM BOY</h3>
+          <img src="imagenes/nino2.png" alt="">
+          <p>
+            Puedes portar una prenda color azul si piensas que sere niño.
+          </p>
+        </div>
+      </div>
+
+      <a href="https://api.whatsapp.com/send?phone=522215817097&text=%C2%A1Hola%20!%20Confirmo%20mi%20asistencia%20al%20Baby%20Shower%20%F0%9F%92%9B%20Soy%20........y%20%20me%20acompa%C3%B1an%20.....%20personas.%20(Porfavor%20colocar%20nombre%20completo)%20Muchas%20Gracias"  class="boton2"  target="_blank">Confirmacion de Asistencia</a>
+
+    </main>
+    <!-- Pie de pagina (footer) -->
+    <footer
+      class="seccion-oscura d-flex flex-column align-items-center justify-content-center"
+    >
+      <img
+        class="footer-logo"
+        src="imagenes/panda-face.svg"
+        alt="Logo del portafolio"
+      />
+      <p class="footer-texto text-center">
+        Si lo puedo imaginar, lo puedo programar {💗}
+      </p>
+      <div
+        class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center"
+      >
+      
+        <a
+          href="https://www.instagram.com/vivar_02/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a
+          href="mailto:cortesvivarangelica@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="bi bi-envelope"></i>
+        </a>
+        <a
+          href="https://www.youtube.com/@angie0273"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="bi bi-youtube"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">
+        Creado con mucho 💗 por Angelica Cortes (2023)
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
